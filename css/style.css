@@ -1,0 +1,50 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+body {
+    margin:auto;
+    width: 1024px;
+    background-color: #f5e9d9;
+}
+
+.heading{
+    margin-top: 50px;   
+    text-align: center;
+    
+
+}
+
+.retsept-heading{
+    color: rgb(17, 79, 131);
+    font-family: 'Acme', sans-serif;
+    font-size: 2rem;
+
+}
+
+.koostisosa-heading{
+    color: rgb(106, 8, 172);
+    font-family: 'Acme', sans-serif;
+
+}
+
+
+
+
+
+.pildid {
+    width: 80%;
+    margin: 1rem auto;
+}
+
+
+
+img {
+    display: inline;
+    margin-left: auto;
+    margin-right: 23px;
+    width: 30%;
+  }
+
+  .footer{
+    color: blueviolet;
+    font-size: 2rem;
+    font-family: 'Oswald', sans-serif;
