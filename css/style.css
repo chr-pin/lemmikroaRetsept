@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Ubuntu&display=swap');
 body {
     margin:auto;
     width: 1024px;
@@ -8,8 +8,7 @@ body {
 
 .heading{
     margin-top: 50px;   
-    text-align: center;
-    
+   
 
 }
 
@@ -17,6 +16,7 @@ body {
     color: rgb(17, 79, 131);
     font-family: 'Acme', sans-serif;
     font-size: 2rem;
+    text-align: center;
 
 }
 
@@ -26,25 +26,43 @@ body {
 
 }
 
+.sisu{
+    color: rgb(46, 43, 49);
+    font-size: 1rem;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 20px;
 
 
+}
 
+table{
+    width:60%
+}
+th, td{
+    text-align: left;
+    border-bottom: 1px solid rgb(180, 175, 175);
+}
 
 .pildid {
     width: 80%;
     margin: 1rem auto;
 }
 
-
+a {
+    color: rgb(219, 89, 154);
+    font-weight: bold;
+  }
 
 img {
     display: inline;
     margin-left: auto;
     margin-right: 23px;
     width: 30%;
+    border-radius: 10px;
   }
 
   .footer{
-    color: blueviolet;
-    font-size: 2rem;
-    font-family: 'Oswald', sans-serif;
+    color: rgb(39, 18, 230);
+    font-size: 1rem;
+    font-family: 'Ubuntu', sans-serif;
+  }
